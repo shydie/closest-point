@@ -1,7 +1,7 @@
 import { Point } from 'features/shapes/types'
 import * as THREE from 'three'
 
-const findClosestPointInPolygon = (vertices: Point[], point: Point) => {
+const findClosestPointOnEdge = (vertices: Point[], point: Point) => {
   const vectors = vertices.map(
     (vertex) => new THREE.Vector3(vertex.x, vertex.y, 0)
   )
@@ -32,4 +32,4 @@ const findClosestPointInPolygon = (vertices: Point[], point: Point) => {
   return closestPoint
 }
 
-export default findClosestPointInPolygon
+export default findClosestPointOnEdge
