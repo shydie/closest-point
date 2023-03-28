@@ -1,0 +1,17 @@
+.control {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.control:not(:disabled) {
+  cursor: pointer;
+}
+
+.control:disabled {
+  cursor: not-allowed;
+}
+
+.control.is-active {
+  background-color: cyan;
+}
