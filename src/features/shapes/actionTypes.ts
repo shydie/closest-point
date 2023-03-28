@@ -1,0 +1,4 @@
+export const ADD_SHAPE = 'ADD_SHAPE'
+export const UPDATE_SHAPE = 'UPDATE_SHAPE'
+export const SELECT_SHAPE = 'SELECT_SHAPE'
+export const RESET_SELECT_SHAPE = 'RESET_SELECT_SHAPE'
