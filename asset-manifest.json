@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shape-editor/static/css/main.993ac3ce.css",
+    "main.js": "/shape-editor/static/js/main.a0259c2a.js",
+    "index.html": "/shape-editor/index.html",
+    "main.993ac3ce.css.map": "/shape-editor/static/css/main.993ac3ce.css.map",
+    "main.a0259c2a.js.map": "/shape-editor/static/js/main.a0259c2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.993ac3ce.css",
+    "static/js/main.a0259c2a.js"
+  ]
+}
