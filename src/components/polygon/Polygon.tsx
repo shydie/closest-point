@@ -30,11 +30,7 @@ const Polygon = ({ shape, cursorPosition, onDragEnd, onSelect }: Props) => {
     document.body.style.cursor = isHovered ? 'pointer' : 'auto'
   }, [isHovered])
 
-  const { closestPoint } = useClosestPoint(
-    meshRef.current,
-    vertices,
-    cursorPosition
-  )
+  const { closestPoint } = useClosestPoint(meshRef.current, cursorPosition)
 
   // Define available interactive actions depend on passed handlers
   const canDrag = !!onDragEnd
