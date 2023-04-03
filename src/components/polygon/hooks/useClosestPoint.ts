@@ -11,7 +11,7 @@ const getMeshVertices = (mesh: THREE.Mesh) => {
   ) as BufferAttribute
   let vertices: THREE.Vector3[] = []
 
-  for (var i = 0; i < positionAttribute.count; i++) {
+  for (let i = 0; i < positionAttribute.count; i++) {
     const vertex = new THREE.Vector3()
     const v = vertex.fromBufferAttribute(positionAttribute, i)
     vertices.push(v)
