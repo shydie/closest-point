@@ -11,3 +11,5 @@ export const getActiveTool = (state: SystemState) => {
     showClosestPoint,
   }
 }
+
+export const getActiveToolName = (state: SystemState) => state.activeTool.name
