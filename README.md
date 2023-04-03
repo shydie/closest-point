@@ -8,10 +8,6 @@ Eslint extends CRA ESLint rules with a custom set, tailored for the reasonable a
 ## Steps to perfection
 I would like to have more test coverage, but testing `react/three-fiber` components requires a complex setup. As a result, I have only added unit tests for reducers and the `findClosestPoint` function since they do not rely on external libraries.
 
-## New technologies
-The major new thing for me was definetyly `Three.js`. I've had some experience before with parsing files for Three.js, but I've never used it as drawing/editing shapes tool. While it may have been easier to work with Three.js in a more traditional manner, I found it interesting to manage it declaratively with `react/three-fiber`. Additionally, `react/three-fiber` has some useful testing tools, although they did not work out of the box and I had to skip them for now.
-The biggest unknown for me was configuring the camera and its unprojection, which ended up being a significant time-waster.
-
 ## Available Scripts
 
 In the project directory, you can run:
